@@ -1,0 +1,30 @@
+{
+  "name": "wolves-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/plugin-i18n": "4.4.3",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "fc67ded4-3fe4-40a7-8c48-5208c9137e28"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
